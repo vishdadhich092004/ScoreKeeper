@@ -1,0 +1,52 @@
+.winner{
+    color:green;
+}
+.loser{
+    color:red;
+}
+.original{
+    color: black;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#subText{
+    color: grey;
+    font-size: .8rem;
+}
+.card-footer{
+    display: flex;
+    height: 3.5rem;
+    padding: 0!important;
+}
+.p1Button{
+    width: 25rem;
+    background: teal!important;
+    color: white!important;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+.p2Button{
+    width: 25rem;
+    background: rgb(53, 53, 208)!important;
+    color: white!important;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+    border-bottom-right-radius: 0!important;
+}
+
+.reset{
+    width: 25rem;
+    background: red!important;
+    color: white!important;
+    border-top-left-radius: 0!important;
+    border-top-right-radius: 0!important;
+    border-bottom-left-radius: 0!important;
+}
